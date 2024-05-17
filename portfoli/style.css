@@ -1,0 +1,79 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(223, 228, 227);
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+
+}
+
+.options :hover {
+    background-color: rgb(147, 147, 219);
+}
+
+#photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    
+  
+
+}
+
+
+#Skills {
+    background-color: rgb(220, 226, 225);
+    margin: 10px;
+    border-radius: 9%;
+  
+
+}
+
+#Projects {
+   
+    margin: 10px;
+   
+}
+
+.Education {
+    justify-content: space-evenly;
+    margin: 10px;
+  
+}
+.table{
+    width: 80vw;
+    padding: 20px;
+    margin: auto;
+    font-size: 30vw;
+}
+.table,th,td {
+    margin: auto;
+    width: 80vw;
+} 
+#opn{
+    display: none;
+    margin: 5%;
+
+ }
+
+
+@media (max-width: 800px) {
+   #photo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .options{
+    display: none;
+     }
+     #opn{
+        display: flex;
+     }
+}
